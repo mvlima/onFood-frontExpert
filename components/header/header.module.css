@@ -11,9 +11,11 @@
   @apply flex items-center px-6 min-h-[56px];
   @apply font-bold text-base;
   @apply border-[#D9D9D9] border-2 rounded-full transition-colors;
-  @apply hover:bg-[color:var(--primary)];
+  @apply hover:bg-[color:var(--primary)] hover:text-white hover:border-[color:var(--primary)];
 }
 
-.brand {
-  @apply bg-gray-200;
+.brand a {
+  @apply flex items-center gap-2 text-black;
+  @apply text-xl md:text-2xl font-bold;
+  @apply transition-opacity hover:opacity-80;
 }
