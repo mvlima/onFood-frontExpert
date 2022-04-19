@@ -1,0 +1,12 @@
+.detail {
+  @apply flex items-center;
+  @apply text-sm text-[color:var(--text-color-secondary)];
+}
+
+.icon {
+  @apply mr-2 flex items-center;
+}
+
+.icon svg {
+  @apply w-4 h-4 fill-[color:var(--light-gray)];
+}
